@@ -32,6 +32,8 @@ scripts/scrape.ts + Camoufox      ──── data/zug94.json ────▶  
     (a match being played stays "next" until its result is scraped)
   - table = team above Zug 94, Zug 94, team below; top 3 if first, bottom 3 if last
     (`sliceAroundZug94`)
+  - `updatedAt` (snapshot's last-change time, shown as "Stand" on the website) and
+    `leagueSize` (full table length, shown as "13. von 16") are passed through
 
 ## Files
 
