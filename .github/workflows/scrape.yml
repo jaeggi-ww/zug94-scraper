@@ -20,7 +20,8 @@ concurrency:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    # Pinned: playwright-core 1.62's install-deps knows Ubuntu 24.04's packages.
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
@@ -42,12 +43,17 @@ jobs:
 
       - name: Download Camoufox
         if: steps.camoufox-cache.outputs.cache-hit != 'true'
+        # Authenticated GitHub API calls avoid the shared-runner rate limit.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx camoufox-js fetch
 
       - name: Install Firefox system libraries
         run: npx playwright-core install-deps firefox
 
       - name: Scrape
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run scrape
 
       - name: Upload debug pages
