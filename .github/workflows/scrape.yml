@@ -1,0 +1,71 @@
+name: Scrape Zug 94 data
+
+on:
+  schedule:
+    # Hourly at :17 (GitHub delays runs at the top of the hour). UTC.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+      - "**.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Cache Camoufox browser
+        id: camoufox-cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/camoufox
+          key: camoufox-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Download Camoufox
+        if: steps.camoufox-cache.outputs.cache-hit != 'true'
+        run: npx camoufox-js fetch
+
+      - name: Install Firefox system libraries
+        run: npx playwright-core install-deps firefox
+
+      - name: Scrape
+        run: npm run scrape
+
+      - name: Upload debug pages
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: debug-pages
+          path: .debug/
+          if-no-files-found: ignore
+
+      - name: Commit changed data
+        run: |
+          git add data/zug94.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: update Zug 94 data"
+          git push

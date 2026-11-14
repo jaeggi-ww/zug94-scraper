@@ -1,0 +1,781 @@
+{
+  "updatedAt": "2026-11-14T14:48:23.738Z",
+  "tableUrl": "https://www.el-pl.ch/desktopdefault.aspx/tabid-1212/v-397/t-31551/ls-25795/sg-70238/a-trr/",
+  "table": [
+    {
+      "rank": 1,
+      "team": "FC Langenthal",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": 13,
+      "points": 30
+    },
+    {
+      "rank": 2,
+      "team": "FC Schötz",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": 14,
+      "points": 26
+    },
+    {
+      "rank": 3,
+      "team": "FC Courtételle",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": 8,
+      "points": 23
+    },
+    {
+      "rank": 4,
+      "team": "SR Delémont",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": 7,
+      "points": 21
+    },
+    {
+      "rank": 5,
+      "team": "SV Muttenz",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": 5,
+      "points": 21
+    },
+    {
+      "rank": 6,
+      "team": "FC Solothurn",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": 6,
+      "points": 20
+    },
+    {
+      "rank": 7,
+      "team": "SC Buochs",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": -1,
+      "points": 18
+    },
+    {
+      "rank": 8,
+      "team": "FC Wohlen",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": -3,
+      "points": 18
+    },
+    {
+      "rank": 9,
+      "team": "FC Muri-Gümligen",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": -3,
+      "points": 18
+    },
+    {
+      "rank": 10,
+      "team": "FC Concordia Basel",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": 4,
+      "points": 17
+    },
+    {
+      "rank": 11,
+      "team": "FC Thun Berner Oberland U-21",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": 0,
+      "points": 16
+    },
+    {
+      "rank": 12,
+      "team": "Grasshopper Club Zürich U-21",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": -3,
+      "points": 16
+    },
+    {
+      "rank": 13,
+      "team": "FC Bassecourt",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": -9,
+      "points": 15
+    },
+    {
+      "rank": 14,
+      "team": "FC Black Stars",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": -5,
+      "points": 13
+    },
+    {
+      "rank": 15,
+      "team": "Zug 94",
+      "isZug94": true,
+      "played": 13,
+      "goalDifference": -14,
+      "points": 13
+    },
+    {
+      "rank": 16,
+      "team": "FC Münsingen",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": -19,
+      "points": 4
+    }
+  ],
+  "matches": [
+    {
+      "date": "2026-07-11",
+      "time": "12:00",
+      "competition": null,
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 2
+      },
+      "awayTeam": {
+        "name": "FC Tuggen",
+        "score": 7
+      },
+      "status": null
+    },
+    {
+      "date": "2026-07-18",
+      "time": "11:00",
+      "competition": null,
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 2
+      },
+      "awayTeam": {
+        "name": "FC Wettswil-Bonstetten",
+        "score": 1
+      },
+      "status": null
+    },
+    {
+      "date": "2026-07-25",
+      "time": "11:00",
+      "competition": null,
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "SC Cham",
+        "score": null
+      },
+      "status": "Spiel findet nicht statt (keine Neuansetzung)"
+    },
+    {
+      "date": "2026-07-25",
+      "time": "16:00",
+      "competition": null,
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "SC Cham",
+        "score": null
+      },
+      "status": "Spiel findet nicht statt (keine Neuansetzung)"
+    },
+    {
+      "date": "2026-07-31",
+      "time": "19:30",
+      "competition": null,
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 1
+      },
+      "awayTeam": {
+        "name": "FC Winterthur U-21",
+        "score": 2
+      },
+      "status": null
+    },
+    {
+      "date": "2026-08-08",
+      "time": "18:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Solothurn",
+        "score": 4
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": 1
+      },
+      "status": null
+    },
+    {
+      "date": "2026-08-15",
+      "time": "16:30",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Wohlen",
+        "score": 3
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": 2
+      },
+      "status": null
+    },
+    {
+      "date": "2026-08-22",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "FC Muri-Gümligen",
+        "score": 1
+      },
+      "status": null
+    },
+    {
+      "date": "2026-08-29",
+      "time": "18:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Grasshopper Club Zürich U-21",
+        "score": 1
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": 2
+      },
+      "status": null
+    },
+    {
+      "date": "2026-09-05",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 2
+      },
+      "awayTeam": {
+        "name": "SC Buochs",
+        "score": 2
+      },
+      "status": null
+    },
+    {
+      "date": "2026-09-13",
+      "time": "15:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Langenthal",
+        "score": 6
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": 2
+      },
+      "status": null
+    },
+    {
+      "date": "2026-09-19",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 1
+      },
+      "awayTeam": {
+        "name": "SR Delémont",
+        "score": 0
+      },
+      "status": null
+    },
+    {
+      "date": "2026-09-22",
+      "time": "19:30",
+      "competition": "Trainingsspiele",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 4
+      },
+      "awayTeam": {
+        "name": "FC Baar",
+        "score": 0
+      },
+      "status": null
+    },
+    {
+      "date": "2026-09-26",
+      "time": "17:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Concordia Basel",
+        "score": 3
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": 0
+      },
+      "status": null
+    },
+    {
+      "date": "2026-10-03",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 1
+      },
+      "awayTeam": {
+        "name": "FC Courtételle",
+        "score": 2
+      },
+      "status": null
+    },
+    {
+      "date": "2026-10-11",
+      "time": "14:30",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Münsingen",
+        "score": 1
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": 2
+      },
+      "status": null
+    },
+    {
+      "date": "2026-10-17",
+      "time": "16:00",
+      "competition": "Cup-Qualifikation 1. Liga Classic - Runde 1",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Gossau",
+        "score": 1
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": 0
+      },
+      "status": null
+    },
+    {
+      "date": "2026-10-24",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 3
+      },
+      "awayTeam": {
+        "name": "FC Black Stars",
+        "score": 0
+      },
+      "status": "Forfait"
+    },
+    {
+      "date": "2026-10-31",
+      "time": "18:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Thun Berner Oberland U-21",
+        "score": 6
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": 1
+      },
+      "status": null
+    },
+    {
+      "date": "2026-11-07",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": "Herti Allmend, Zug",
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": 3
+      },
+      "awayTeam": {
+        "name": "FC Schötz",
+        "score": 5
+      },
+      "status": null
+    },
+    {
+      "date": "2026-11-14",
+      "time": "15:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": "Stade des Grands-Prés, Bassecourt",
+      "homeTeam": {
+        "name": "FC Bassecourt",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2026-11-21",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": "Herti Allmend, Zug",
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "SV Muttenz",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-01-16",
+      "time": "12:00",
+      "competition": "Trainingsspiele",
+      "venue": "Herti Allmend, Zug",
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Kosova",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-01-23",
+      "time": "12:00",
+      "competition": "Trainingsspiele",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Oetwil-Geroldswil 1 (2. Int.)",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-01-27",
+      "time": "19:30",
+      "competition": "Trainingsspiele",
+      "venue": null,
+      "homeTeam": {
+        "name": "SC Cham",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-01-30",
+      "time": "12:00",
+      "competition": "Trainingsspiele",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Ibach (2. Int.)",
+        "score": null
+      },
+      "status": "Spiel findet nicht statt (keine Neuansetzung)"
+    },
+    {
+      "date": "2027-02-06",
+      "time": "11:00",
+      "competition": "Trainingsspiele",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Wettswil-Bonstetten",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-02-13",
+      "time": "12:00",
+      "competition": "Trainingsspiele",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Thalwil",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-02-20",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Solothurn",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-02-27",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Wohlen",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-03-06",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Muri-Gümligen",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-03-13",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Grasshopper Club Zürich U-21",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-03-20",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "SC Buochs",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-03-27",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Langenthal",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-04-04",
+      "time": "14:30",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "SR Delémont",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-04-10",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Concordia Basel",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-04-17",
+      "time": null,
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Courtételle",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-04-24",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Münsingen",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-05-01",
+      "time": "15:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Black Stars",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-05-08",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Thun Berner Oberland U-21",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-05-15",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "FC Schötz",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-05-22",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "FC Bassecourt",
+        "score": null
+      },
+      "status": null
+    },
+    {
+      "date": "2027-05-29",
+      "time": "16:00",
+      "competition": "Meisterschaft 1. Liga / Classic / Gruppe 2",
+      "venue": null,
+      "homeTeam": {
+        "name": "SV Muttenz",
+        "score": null
+      },
+      "awayTeam": {
+        "name": "Zug 94",
+        "score": null
+      },
+      "status": null
+    }
+  ]
+}
