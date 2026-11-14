@@ -12,7 +12,7 @@ The response contract is documented in [docs/api.md](docs/api.md).
 ## How it works
 
 ```
-GitHub Actions (hourly)                         Vercel
+GitHub Actions (daily)                          Vercel
 ┌──────────────────────────────┐   git push   ┌──────────────────────────────┐
 │ Camoufox (stealth Firefox)    │ ───────────▶ │ Next.js                       │
 │  1. widget.football.ch → table│  data/       │  /api/zug94 reads the JSON,   │
@@ -58,8 +58,9 @@ npm run dev                 # http://localhost:3000/api/zug94
 3. In GitHub → Settings → Actions → General → Workflow permissions, allow **Read and write**.
 4. Run the **Scrape Zug 94 data** workflow once by hand (Actions tab → Run workflow).
 
-The schedule is hourly (`17 * * * *`, UTC) in [.github/workflows/scrape.yml](.github/workflows/scrape.yml).
-On a private repo each run uses about 1–2 Actions minutes, which fits the free 2,000 min/month.
+The schedule is once a day at 05:00 UTC (`0 5 * * *`) = 06:00 CET / 07:00 CEST in
+[.github/workflows/scrape.yml](.github/workflows/scrape.yml). It can also be started by hand
+(Actions tab → Run workflow), and it runs on every code push.
 GitHub pauses scheduled workflows after 60 days without repository activity. Data commits
 count as activity, so this only happens during a long summer break.
 

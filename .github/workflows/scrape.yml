@@ -2,8 +2,9 @@ name: Scrape Zug 94 data
 
 on:
   schedule:
-    # Hourly at :17 (GitHub delays runs at the top of the hour). UTC.
-    - cron: "17 * * * *"
+    # Once a day at 05:00 UTC = 06:00 CET (07:00 during summer time, CEST).
+    # Picks up the previous day's results. GitHub may start it a few minutes late.
+    - cron: "0 5 * * *"
   workflow_dispatch:
   push:
     branches: [main]
