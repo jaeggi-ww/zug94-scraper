@@ -67,9 +67,11 @@ export function buildResponse(snapshot: Snapshot, now = new Date()): ApiResponse
   const next = pickNextMatch(snapshot.matches, now)
   return {
     version: API_VERSION,
+    updatedAt: snapshot.updatedAt,
     lastMatch: last && toMatch(last),
     nextMatch: next && toMatch(next),
     table: sliceAroundZug94(snapshot.table),
+    leagueSize: snapshot.table.length,
     tableUrl: snapshot.tableUrl,
   }
 }

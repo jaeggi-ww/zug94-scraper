@@ -28,9 +28,11 @@ export interface TableRow {
 
 export interface ApiResponse {
   version: number
+  updatedAt: string // ISO timestamp: when the scraped data last changed ("Stand")
   lastMatch: Match | null
   nextMatch: Match | null
   table: TableRow[] // exactly 3 rows
+  leagueSize: number // number of teams in the full table, e.g. 16 → "15. von 16"
   tableUrl: string | null
 }
 

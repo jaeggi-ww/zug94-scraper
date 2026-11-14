@@ -30,6 +30,7 @@ omitted, never `""`. Numbers are JSON numbers, not strings.
 ```json
 {
   "version": 1,
+  "updatedAt": "2026-11-14T15:48:23.000Z",
   "lastMatch": {
     "date": "2026-11-08",
     "time": "16:00",
@@ -51,6 +52,7 @@ omitted, never `""`. Numbers are JSON numbers, not strings.
     { "rank": 5, "team": "Zug 94",        "isZug94": true,  "played": 13, "goalDifference": 4, "points": 22 },
     { "rank": 6, "team": "FC Black Stars","isZug94": false, "played": 13, "goalDifference": -1, "points": 20 }
   ],
+  "leagueSize": 16,
   "tableUrl": "https://matchcenter.ifv.ch/default.aspx?v=397&oid=3&lng=1&t=31551&a=trr"
 }
 ```
@@ -62,9 +64,11 @@ omitted, never `""`. Numbers are JSON numbers, not strings.
 | Key | Type | Rule |
 |---|---|---|
 | `version` | number | Always `1`. Any other value → website hides the section. Bump only on breaking changes. |
+| `updatedAt` | string | ISO 8601 timestamp of when the scraped data last changed. Shown as "Stand: dd.mm.yyyy" under the table. |
 | `lastMatch` | Match \| `null` | Most recent Zug 94 match **that has a final score**. `null` only if none played yet this season. |
 | `nextMatch` | Match \| `null` | Earliest Zug 94 match **with no score, not cancelled, and kickoff no more than 3 h ago** (Europe/Zurich), so a match being played stays "next" until its result is in. `null` in the off-season. |
 | `table` | TableRow[] | **Exactly 3 rows** (fewer only if the league has fewer than 3 teams), sorted by `rank` ascending. See selection rule below. |
+| `leagueSize` | number | Number of teams in the full league table (e.g. `16`). Shown as "15. von 16". |
 | `tableUrl` | string \| `null` | Link to the full table ("Vollständige Tabelle →"). Hidden if `null`. |
 
 ### Match
@@ -119,7 +123,7 @@ then hides the section.
 ## Test checklist
 
 - [ ] `curl -i <url>` shows `Access-Control-Allow-Origin` and `Content-Type: application/json`
-- [ ] All 5 top-level keys present, `version: 1`
+- [ ] All 7 top-level keys present, `version: 1`
 - [ ] `table` has 3 rows, exactly one `isZug94: true`
 - [ ] Numbers are numbers (`2`, not `"2"`)
 - [ ] `date` is `YYYY-MM-DD`, `time` is `HH:mm` or `null`
