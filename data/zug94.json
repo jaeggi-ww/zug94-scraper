@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T18:41:40.122Z",
+  "updatedAt": "2026-11-16T13:16:39.662Z",
   "tableUrl": "https://www.el-pl.ch/desktopdefault.aspx/tabid-1212/v-397/t-31551/ls-25795/sg-70238/a-trr/",
   "table": [
     {
@@ -22,25 +22,25 @@
       "rank": 3,
       "team": "FC Courtételle",
       "isZug94": false,
-      "played": 13,
+      "played": 14,
       "goalDifference": 8,
-      "points": 23
+      "points": 24
     },
     {
       "rank": 4,
+      "team": "SR Delémont",
+      "isZug94": false,
+      "played": 14,
+      "goalDifference": 7,
+      "points": 22
+    },
+    {
+      "rank": 5,
       "team": "SV Muttenz",
       "isZug94": false,
       "played": 14,
       "goalDifference": 5,
       "points": 22
-    },
-    {
-      "rank": 5,
-      "team": "SR Delémont",
-      "isZug94": false,
-      "played": 13,
-      "goalDifference": 7,
-      "points": 21
     },
     {
       "rank": 6,
@@ -62,8 +62,8 @@
       "rank": 8,
       "team": "SC Buochs",
       "isZug94": false,
-      "played": 13,
-      "goalDifference": -1,
+      "played": 14,
+      "goalDifference": -2,
       "points": 18
     },
     {
@@ -100,6 +100,14 @@
     },
     {
       "rank": 13,
+      "team": "FC Black Stars",
+      "isZug94": false,
+      "played": 14,
+      "goalDifference": -4,
+      "points": 16
+    },
+    {
+      "rank": 14,
       "team": "Zug 94",
       "isZug94": true,
       "played": 14,
@@ -107,20 +115,12 @@
       "points": 16
     },
     {
-      "rank": 14,
+      "rank": 15,
       "team": "FC Bassecourt",
       "isZug94": false,
       "played": 14,
       "goalDifference": -10,
       "points": 15
-    },
-    {
-      "rank": 15,
-      "team": "FC Black Stars",
-      "isZug94": false,
-      "played": 13,
-      "goalDifference": -5,
-      "points": 13
     },
     {
       "rank": 16,
