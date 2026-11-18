@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T13:16:39.662Z",
+  "updatedAt": "2026-11-18T13:36:49.148Z",
   "tableUrl": "https://www.el-pl.ch/desktopdefault.aspx/tabid-1212/v-397/t-31551/ls-25795/sg-70238/a-trr/",
   "table": [
     {
@@ -92,14 +92,6 @@
     },
     {
       "rank": 12,
-      "team": "Grasshopper Club Zürich U-21",
-      "isZug94": false,
-      "played": 13,
-      "goalDifference": -3,
-      "points": 16
-    },
-    {
-      "rank": 13,
       "team": "FC Black Stars",
       "isZug94": false,
       "played": 14,
@@ -107,12 +99,20 @@
       "points": 16
     },
     {
-      "rank": 14,
+      "rank": 13,
       "team": "Zug 94",
       "isZug94": true,
       "played": 14,
       "goalDifference": -13,
       "points": 16
+    },
+    {
+      "rank": 14,
+      "team": "Grasshopper Club Zürich U-21",
+      "isZug94": false,
+      "played": 13,
+      "goalDifference": -6,
+      "points": 15
     },
     {
       "rank": 15,
@@ -127,8 +127,8 @@
       "team": "FC Münsingen",
       "isZug94": false,
       "played": 14,
-      "goalDifference": -17,
-      "points": 7
+      "goalDifference": -14,
+      "points": 9
     }
   ],
   "matches": [
