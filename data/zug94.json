@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-11-18T13:36:49.148Z",
+  "updatedAt": "2026-11-22T12:58:47.275Z",
   "tableUrl": "https://www.el-pl.ch/desktopdefault.aspx/tabid-1212/v-397/t-31551/ls-25795/sg-70238/a-trr/",
   "table": [
     {
       "rank": 1,
+      "team": "FC Schötz",
+      "isZug94": false,
+      "played": 15,
+      "goalDifference": 19,
+      "points": 32
+    },
+    {
+      "rank": 2,
       "team": "FC Langenthal",
       "isZug94": false,
       "played": 14,
@@ -11,15 +19,15 @@
       "points": 30
     },
     {
-      "rank": 2,
-      "team": "FC Schötz",
+      "rank": 3,
+      "team": "SV Muttenz",
       "isZug94": false,
-      "played": 14,
-      "goalDifference": 17,
-      "points": 29
+      "played": 15,
+      "goalDifference": 7,
+      "points": 25
     },
     {
-      "rank": 3,
+      "rank": 4,
       "team": "FC Courtételle",
       "isZug94": false,
       "played": 14,
@@ -27,7 +35,15 @@
       "points": 24
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "team": "FC Wohlen",
+      "isZug94": false,
+      "played": 15,
+      "goalDifference": 0,
+      "points": 24
+    },
+    {
+      "rank": 6,
       "team": "SR Delémont",
       "isZug94": false,
       "played": 14,
@@ -35,44 +51,28 @@
       "points": 22
     },
     {
-      "rank": 5,
-      "team": "SV Muttenz",
-      "isZug94": false,
-      "played": 14,
-      "goalDifference": 5,
-      "points": 22
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "team": "FC Solothurn",
       "isZug94": false,
-      "played": 14,
-      "goalDifference": 6,
-      "points": 21
-    },
-    {
-      "rank": 7,
-      "team": "FC Wohlen",
-      "isZug94": false,
-      "played": 14,
-      "goalDifference": -1,
+      "played": 15,
+      "goalDifference": 5,
       "points": 21
     },
     {
       "rank": 8,
       "team": "SC Buochs",
       "isZug94": false,
-      "played": 14,
-      "goalDifference": -2,
-      "points": 18
+      "played": 15,
+      "goalDifference": 0,
+      "points": 21
     },
     {
       "rank": 9,
       "team": "FC Muri-Gümligen",
       "isZug94": false,
-      "played": 14,
+      "played": 15,
       "goalDifference": -6,
-      "points": 18
+      "points": 19
     },
     {
       "rank": 10,
@@ -86,8 +86,8 @@
       "rank": 11,
       "team": "FC Thun Berner Oberland U-21",
       "isZug94": false,
-      "played": 13,
-      "goalDifference": 0,
+      "played": 14,
+      "goalDifference": -2,
       "points": 16
     },
     {
@@ -100,26 +100,26 @@
     },
     {
       "rank": 13,
-      "team": "Zug 94",
-      "isZug94": true,
-      "played": 14,
-      "goalDifference": -13,
+      "team": "FC Bassecourt",
+      "isZug94": false,
+      "played": 15,
+      "goalDifference": -10,
       "points": 16
     },
     {
       "rank": 14,
-      "team": "Grasshopper Club Zürich U-21",
-      "isZug94": false,
-      "played": 13,
-      "goalDifference": -6,
-      "points": 15
+      "team": "Zug 94",
+      "isZug94": true,
+      "played": 15,
+      "goalDifference": -15,
+      "points": 16
     },
     {
       "rank": 15,
-      "team": "FC Bassecourt",
+      "team": "Grasshopper Club Zürich U-21",
       "isZug94": false,
       "played": 14,
-      "goalDifference": -10,
+      "goalDifference": -8,
       "points": 15
     },
     {
@@ -454,11 +454,11 @@
       "venue": "Herti Allmend, Zug",
       "homeTeam": {
         "name": "Zug 94",
-        "score": null
+        "score": 0
       },
       "awayTeam": {
         "name": "SV Muttenz",
-        "score": null
+        "score": 2
       },
       "status": null
     },
@@ -496,7 +496,7 @@
       "date": "2027-01-27",
       "time": "19:30",
       "competition": "Trainingsspiele",
-      "venue": null,
+      "venue": "Eizmoos, Cham",
       "homeTeam": {
         "name": "SC Cham",
         "score": null
